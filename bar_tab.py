@@ -11,7 +11,7 @@ class tab:
 
     #set up the class
     def __init__(self):
-        #set up empty initial total and item list
+        #set up empty initial total and item list, test add comment
         #customer will add items and total will add up
         #these variables will exist within the class
         self.total = 0
