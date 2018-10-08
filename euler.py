@@ -11,18 +11,30 @@
 #
 # euler3(60085147514)
 
+#euler 3
+# a = 2
+# b = 600851475143
+# while a < b:
+#     if b % a == 0:
+#         b = b/a
+#     else:
+#         a += 1
+# print (a)
 
-a=13195
-b=60085
-c=2
-e=0
-f = 100000
-while e  <b:
-    while c < b :
-        d= b%c
-        if d == 0:
-            e=c
-        c += f
-    f=f/2
-    round (f,0)
-print (e)
+#euler4
+a=999
+b=999
+c=0
+g=0
+while b > 100:
+    c = b*a
+    d = list(str(c))
+    e = d[0:2]
+    f = d[3:5]
+    if (e == f.reverse and c > g) :
+        g == c
+        a -= 1
+    if a == 100:
+        b -= 1
+        a = b
+print (g)
