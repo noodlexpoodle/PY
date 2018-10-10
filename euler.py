@@ -29,9 +29,16 @@ g=0
 while b > 100:
     c = b*a
     d = list(str(c))
-    e = d[0:2]
-    f = d[3:5]
-    if (e == f.reverse and c > g) :
+    e = d[0:3]
+    f = d[3:6]
+    # b -= 100
+    #print(c)
+    #print(e)
+    #print(f)
+    # print(f)
+    f.reverse()
+    # print(f)
+    if (e == f and c > g) :
         g == c
         a -= 1
     if a == 100:
