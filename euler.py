@@ -31,17 +31,16 @@ while b > 100:
     d = list(str(c))
     e = d[0:3]
     f = d[3:6]
-    # b -= 100
-    #print(c)
     #print(e)
-    #print(f)
-    # print(f)
     f.reverse()
-    # print(f)
+    #print(f)
     if (e == f and c > g) :
-        g == c
-        a -= 1
+        g = c
+        h = a
+        i = b
+    a -= 1
     if a == 100:
         b -= 1
         a = b
-print (g)
+print (f'Largest such number is {g}')
+print (f'It is the product of {h} and {i}')
