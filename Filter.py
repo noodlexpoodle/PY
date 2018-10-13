@@ -25,5 +25,8 @@ no_fail = [grade for grade in gpa if grade != 'F']
 print(no_fail)
 
 #by map
+def remove_bad_grade_v2(grade):
+
+
 no_fail = list(map(remove_bad_grade,gpa))
 print(no_fail)
