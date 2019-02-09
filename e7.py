@@ -2,7 +2,8 @@
 x = 6
 y = 13
 a = [2,3,5,7,11,13]
-while x < 10:
+#note that a[-1] comes after x for the value
+while x < 10001:
     z = 0
     y += 2
     for i in a:
