@@ -22,3 +22,5 @@ while True:
         break
 
 belt_count(ninja_belts)
+x= ninja_belts.items(0)
+print (x)
